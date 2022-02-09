@@ -5,9 +5,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  background-color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.register{
+  padding: 5px 10px;
+  margin: 10px;
+  display: inline-block;
+  color: #000;
+  background: #ffffff;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+a.register:hover{
+  background: #ff84c1;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  z-index: 10;
+  border-radius: 2%;
+  opacity: 0.8;
+}
+
+.registerAcc:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity: 1;
+  border-radius: 0%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.registerAcc:hover .overlay .text {
+  color: #fff;
+  border-radius: 0%;
+}
+
+.registerAcc:hover .overlay .text iframe{
+  border-radius: 0%;
+}
+
+.card button.login100-form-btn.sendmail{
+  width: 40%;
 }

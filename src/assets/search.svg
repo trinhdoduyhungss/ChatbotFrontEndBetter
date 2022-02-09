@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/Fill/message-circle">
+<mask id="mask0_1_67" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+<path id="Mask" fill-rule="evenodd" clip-rule="evenodd" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" fill="white"/>
+</mask>
+<g mask="url(#mask0_1_67)">
+<g id="&#240;&#159;&#142;&#168; Color">
+<rect id="Base" width="24" height="24" fill="url(#paint0_linear_1_67)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_67" x1="6" y1="4" x2="18" y2="19.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7CB8F7"/>
+<stop offset="0.934101" stop-color="#2A8BF2"/>
+</linearGradient>
+</defs>
+</svg>
